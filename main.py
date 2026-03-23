@@ -31,7 +31,7 @@ def home():
 
 @app.get("/ui")
 def get_ui():
-    return FileResponse("D:/Fitlok/python/index.html")
+    return FileResponse("index.html")
 
 @app.post("/chat")
 def chat(request: ChatRequest):
